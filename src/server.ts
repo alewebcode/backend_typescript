@@ -3,8 +3,8 @@ import express from 'express';
 
 const app = express();
 
-app.get('/',response =>{
-   console.log('opa') 
+app.get('/',(req,response) =>{
+   return response.json({message:'Hello'})
 })
 
 app.listen(3333)
