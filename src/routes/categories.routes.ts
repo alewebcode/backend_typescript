@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { v4 as uuidV4 } from "uuid";
+//import { v4 as uuidV4 } from "uuid";
 
 import { createCategoryController } from "../modules/cars/useCases/createCategory";
 import { listCategoriesController } from "../modules/cars/useCases/listCategories";
